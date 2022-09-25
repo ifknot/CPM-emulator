@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.3.2.2 (Windows)"/>
+	<meta name="created" content="2022-09-25T17:34:42.553000000"/>
+	<meta name="changed" content="2022-09-25T17:40:20.757000000"/>
+	<style type="text/css">
+		@page { margin: 2cm }
+		h1 { margin-bottom: 0.21cm; background: transparent }
+		h1.western { font-family: "Liberation Serif", serif }
+		h1.cjk { font-family: "NSimSun"; font-size: 24pt }
+		h1.ctl { font-family: "Arial"; font-size: 24pt }
+		p { line-height: 115%; margin-bottom: 0.25cm; background: transparent }
+		h2 { margin-top: 0.35cm; margin-bottom: 0.21cm; background: transparent }
+		h2.western { font-family: "Liberation Serif", serif }
+		h2.cjk { font-family: "NSimSun" }
+		h2.ctl { font-family: "Arial" }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="en-GB" dir="ltr"><h1 class="western" style="text-transform: uppercase; font-weight: normal; line-height: 109%; margin-top: 0cm; margin-bottom: 0.32cm; border: none; padding: 0cm">
+<font face="inherit"><font size="6" style="font-size: 24pt">BIN2HEX
+sydneysmith.com</font></font></h1>
+<p style="font-variant: normal; letter-spacing: normal; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0.64cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><span style="background: #ffffff"><font color="#2b2b2b"><img src="BIN2HEX_html_863df57ee419de88.png" name="Image1" alt="bin2hex main" align="bottom" width="677" height="343" border="0"/>
+
+</span></span></font>
+</p>
+<p style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0.64cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="background: #ffffff"><font color="#2b2b2b">Do
+you need to convert a binary file into Intel Hex format?</span></span></font></font></font></p>
+<p style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0.64cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="background: #ffffff"><font color="#2b2b2b">There
+are some tools around that do that but the smallest / simplest
+/easiest one I found is a 16 bit app that won&rsquo;t run under
+Windows 10 (nor probably my Win 8 x64 laptop). It&rsquo;s a pity
+because it looked pretty good. Simple, easy to use, and small in
+size.</span></span></font></font></font></p>
+<p style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0.64cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="background: #ffffff"><font color="#2b2b2b">I
+could probably run it in an emulator or a &lsquo;virtual machine&rsquo;;
+but running an 8086 emulator to run something I need for a Z80
+emulator seems like a long build chain. It is unfortunate that
+Windows no longer supports 16 bit apps but there&rsquo;s a simple way
+forward: make one. So here it is:</span></span></font></font></font></p>
+<h2 class="western" style="font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-top: 0.95cm; margin-bottom: 0.32cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="5" style="font-size: 18pt"><b><span style="background: #ffffff"><font color="#2b2b2b">Features</span></span></b></font></font></font></h2>
+<p style="font-variant: normal; letter-spacing: normal; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0.64cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><span style="background: #ffffff"><font color="#2b2b2b">&ndash;
+<font face="inherit"><font size="3" style="font-size: 12pt"><span style="font-style: normal"><span style="font-weight: normal">small,
+simple, easy to use.<br/>
+&ndash; converts binary files to Intel hex
+format<br/>
+&ndash; accepts an address argument so you can position
+the binary where it&rsquo;s needed<br/>
+&ndash; allows you to
+transfer binary files as text<br/>
+&ndash; should be usable with PROM
+programmers<br/>
+&ndash; runs on Win10 x64 (or earlier), and x32<br/>
+&ndash;
+open source software</span></span></font></font></span></span></font></p>
+<h2 class="western" style="font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-top: 0.95cm; margin-bottom: 0.32cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="5" style="font-size: 18pt"><b><span style="background: #ffffff"><font color="#2b2b2b">Unfeatures</span></span></b></font></font></font></h2>
+<p style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0.64cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="background: #ffffff"><font color="#2b2b2b">It
+doesn&rsquo;t do the following yet:<br/>
+&ndash; fancy features from
+the original<br/>
+&ndash; padding / fill to a fixed length</span></span></font></font></font></p>
+<h2 class="western" style="font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-top: 0.95cm; margin-bottom: 0.32cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="5" style="font-size: 18pt"><b><span style="background: #ffffff"><font color="#2b2b2b">Download</span></span></b></font></font></font></h2>
+<p style="orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font color="#2b2b2b"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: #ffffff"><span style="font-variant: normal">You
+can download the program from&nbsp;</span></span></span></span></font></font></font></span><span style="font-variant: normal"><font color="#24890d"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="letter-spacing: normal"><span style="font-style: normal"><u><span style="font-weight: normal"><span style="background: #ffffff"><a href="http://www.sydneysmith.com/products/cpm/bin2hex/bin2hex.exe">cpm/bin2hex/bin2hex.exe</span></span></u></span></span></font></font></font></span></a><font color="#2b2b2b"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: #ffffff"><span style="font-variant: normal"><br/>
+You
+can download the source code from&nbsp;</span></span></span></span></font></font></font></span><span style="font-variant: normal"><font color="#24890d"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="letter-spacing: normal"><span style="font-style: normal"><u><span style="font-weight: normal"><span style="background: #ffffff"><a href="http://www.sydneysmith.com/products/cpm/bin2hex/bin2hex.c" target="_blank">cpm/bin2hex/bin2hex.c</span></span></span></u></span></span></font></font></font></span></a></p>
+<h2 class="western" style="font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-top: 0.95cm; margin-bottom: 0.32cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font face="inherit"><font size="5" style="font-size: 18pt"><b><span style="background: #ffffff"><font color="#2b2b2b">More
+Information</span></span></b></font></font></font></h2>
+<p style="orphans: 2; widows: 2; margin-left: 1.43cm; margin-right: 1.43cm; margin-bottom: 0cm; border: none; padding: 0cm">
+<span style="display: inline-block; border: none; padding: 0cm"><font color="#2b2b2b"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: #ffffff"><span style="font-variant: normal">The
+original is&nbsp;</span></span></span></span></font></font></font></span><span style="font-variant: normal"><font color="#24890d"><font face="inherit"><font size="3" style="font-size: 12pt"><span style="letter-spacing: normal"><span style="font-style: normal"><u><span style="font-weight: normal"><span style="background: #ffffff"><a href="http://www.keil.com/download/docs/113.asp" target="_blank">http://www.keil.com/download/docs/113.asp</span></span></span></u></span></span></font></font></font></span></a></p>
+<p style="line-height: 100%; margin-bottom: 0cm"><br/>
+
+</p>
+</body>
+</html>
