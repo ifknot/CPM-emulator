@@ -1,5 +1,5 @@
 # CP/M emulator
-This is a Windows 10 emulator for a CP/M system by Greg from his blog www.sydneysmith.com
+This is a Windows 10 emulator for a CP/M system by Greg from his blog [www.sydneysmith.com](https://www.sydneysmith.com/wordpress/run-cpm/)
 
 ![retro-pc](https://github.com/ifknot/CPM-emulator/blob/main/images/retro_pc_128x128.png)
 
